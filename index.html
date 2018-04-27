@@ -10,20 +10,70 @@
     <link rel="stylesheet" href="assets/style/media.css">
     <link rel="stylesheet" href="assets/style/main.css">
 </head>
-<body>
+  <body>
     <header class="header-pattern">
-        <h1>Batalha de comida <span style="font-family:'Jua'">GOURMET</span></h1>
+      <h1>Batalha de comida
+        <span style="font-family:'Jua'">GOURMET</span>
+      </h1>
+
+      <div>
+        <button class="bt-nav" id="btn-again">
+          <a href="#">RECOMEÇAR</a>
+        </button>
+        <button class="bt-nav">
+          <a href="#">REPROGRAMA</a>
+        </button>
+        <button class="bt-nav">
+          <a href="#">CONTATOS</a>
+        </button>
+      </div>
     </header>
 
 <!------------------------------------------------HOME PAGE------------------------------------------------------------>
+
     <div id="container-home-page">
       <section>
-        <h2>Categorias</h2>
-        <div class="categories">
-          <button id="btn-bf" onclick="showChosenList(breakfast)"><a href="#">Café da manhã</a></button>
-          <button id="btn-pf" onclick="showChosenList(pF)"><a href="#">PF</a></button>
-          <button id="btn-ds" onclick="showChosenList(desserts)"><a href="#">Sobremesa</a></button>
-          <button id="btn-dr" onclick="showChosenList(drinks)"><a href="#">Bebidas</a></button>
+        <div class="intro">
+          <div>
+            <img class="logo" src="./assets/images/logo.png" alt="batalha de comidas gourmet">
+          </div>
+          <div class="categories">
+            <div>
+              <button class="btn-index" id="btn-bf" onclick="showChosenList(breakfast)">
+                <a href="#">Café da manhã</a>
+              </button>
+              <div>
+                <img src="./assets/images/bg_red.png" alt="bg">
+              </div>
+            </div>
+
+            <div>
+              <button class="btn-index" id="btn-pf" onclick="showChosenList(pF)">
+                <a href="#">PF</a>
+              </button>
+              <div>
+                <img src="./assets/images/bg_red.png" alt="bg">
+              </div>
+            </div>
+
+            <div>
+              <button class="btn-index" id="btn-ds" onclick="showChosenList(desserts)">
+                <a href="#">Sobremesa</a>
+              </button>
+              <div>
+                <img src="./assets/images/bg_red.png" alt="bg">
+              </div>
+            </div>
+
+            <div>
+              <button class="btn-index" id="btn-dr" onclick="showChosenList(drinks)">
+                <a href="#">Bebidas</a>
+              </button>
+              <div>
+                <img src="./assets/images/bg_red.png" alt="bg">
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -33,7 +83,7 @@
 
 <!---------------------------------------------------16---------------------------------------------------------------->
       <section id="round-of-16">
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto1"></a>
             <p class="plate-name">nome do prato</p>
@@ -44,7 +94,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto3"></a>
             <p class="plate-name">nome do prato</p>
@@ -55,7 +105,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto5"></a>
             <p class="plate-name">nome do prato</p>
@@ -66,7 +116,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto7"></a>
             <p class="plate-name">nome do prato</p>
@@ -77,7 +127,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto9"></a>
             <p class="plate-name">nome do prato</p>
@@ -88,7 +138,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto11"></a>
             <p class="plate-name">nome do prato</p>
@@ -99,7 +149,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto13"></a>
             <p class="plate-name">nome do prato</p>
@@ -110,7 +160,7 @@
           </div>
         </div>
 
-        <div class="doubles">
+        <div class="double">
           <div class="plate">
             <a href="#"><img class="img-plate" src="assets\images\base\prato vazio.png" alt="foto15"></a>
             <p class="plate-name">nome do prato</p>
@@ -165,10 +215,10 @@
     </div>
 
     <footer>
-        <p>Produzido por Jéssica Arrais, Mariana Cunha e Rafaela Volkmann</p>
+      <p>Made with ❤ by Jéssica Arrais, Mariana Cunha, Rafaella Volkmann and {reprograma}, 2018</p>
     </footer>
 
     <script src="assets/js/main.js"></script>
 
-</body>
+  </body>
 </html>

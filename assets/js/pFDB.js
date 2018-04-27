@@ -65,5 +65,6 @@ const pF = [
     },
 ];
 
-export { pF } from 'pFDB';
+export { pF };
+
 
